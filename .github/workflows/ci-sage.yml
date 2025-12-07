@@ -125,6 +125,7 @@ jobs:
       targets: SAGE_CHECK=no SAGE_CHECK_PACKAGES="m4ri" libpng m4ri
       # Standard setting: Test the current beta release of Sage:
       sage_repo: passagemath/passagemath
-      sage_ref: main
+      #sage_ref: main
+      sage_ref: refs/pull/1864/head
       upstream_artifact: upstream
     needs: [dist]
