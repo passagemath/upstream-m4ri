@@ -42,6 +42,7 @@ on:
     tags:
     branches:
       - master
+      - ci-sage
   workflow_dispatch:
     # Allow to run manually
 
